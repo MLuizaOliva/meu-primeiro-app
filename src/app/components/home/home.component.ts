@@ -11,5 +11,8 @@ export class HomeComponent {
   name = "Luiza";
   idButton = "btn";
 
+  submit(event: any) {
+    console.log(event);
+  }
 
 }
